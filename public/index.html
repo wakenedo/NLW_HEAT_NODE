@@ -8,13 +8,12 @@
 </head>
 <body>
     <script 
-        src="https//cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"
-        integrity="sha512-eVL5Lb9al9FzgR63gDs1MxcDS2wFu3loYAgjIH0+Hg38tCS8Ag62dwKyH+wzDb+QauDpEZjXbMn11blw8cbTJQ=="
-        crossorigin="anonymous"
-    ></script>
-
+     src="https://cdn.socket.io/4.3.2/socket.io.min.js"
+     integrity="sha384-KAZ4DtjNhLChOB/hxXuKqhMLYvx3b5MlT55xPEiNmREKRzeEm+RVPlTnAn0ajQNs"
+     crossorigin="anonymous">
+    </script>
     <script>
-        const socket = i=("http://localhost4000");
+        const socket = io("http://localhost4000");
 
         socket.on("new_message", (data) => console.log(data));
     </script>
