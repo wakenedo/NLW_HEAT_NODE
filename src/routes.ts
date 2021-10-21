@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { AuthenticateUserController } from './controllers/AuthenticateUserController';
 import { CreateMessageController } from './controllers/CreateMessageController';
 import { Get3LastMessagesController } from './controllers/GetLast3MessagesController';
-import { ensureAuthenticated } from './middleware/ensureAuthencticated';
+import { ensureAuthenticated } from './middleware/ensureAuthenticated';
 import { ProfileUserController } from './controllers/ProfileUserController';
 
 
